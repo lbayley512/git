@@ -1,0 +1,50 @@
+img{
+  width: 100%;
+}
+
+footer{
+    background-color: hsl(0, 4%, 17%);
+    
+    display: flex;
+    justify-content: space-between;
+}
+h4, h2{
+    color: white;
+    font-family: Georgia;
+}
+
+footer :not(h4, h2){
+    color: rgb(193, 193, 193);
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    
+}
+footer ul li a{
+    display: flex;
+    margin-right: 8px;
+    color: rgb(174, 165, 165);
+   
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.social-div{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-div{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 150px;
+}
